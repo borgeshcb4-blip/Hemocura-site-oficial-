@@ -4,7 +4,7 @@ import { Lock, Leaf } from 'lucide-react';
 export const Header: React.FC = () => {
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50 w-full">
-      <div className="max-w-md mx-auto px-4 py-3 flex items-center justify-between">
+      <div className="max-w-md md:max-w-6xl mx-auto px-4 py-3 flex items-center justify-between transition-all duration-300">
         {/* Logo Section */}
         <div className="flex items-center gap-1.5">
           {/* Logo Icon */}

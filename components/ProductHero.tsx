@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Star, TrendingUp } from 'lucide-react';
 
 const PRODUCT_IMAGES = [
   "https://iili.io/fFnbnPs.md.png",
@@ -107,35 +106,6 @@ export const ProductHero: React.FC = () => {
           ))}
         </div>
       </div>
-
-      {/* Stats Badges Row - Distinct Pills */}
-      <div className="flex items-center gap-3 w-full px-1">
-        
-        {/* Rating Pill */}
-        <div className="flex-1 bg-[#fffbeb] border border-[#fef3c7] rounded-full py-2.5 px-2 flex items-center justify-center gap-1.5 shadow-sm min-w-0">
-          <div className="flex -space-x-0.5 shrink-0">
-            {[1, 2, 3, 4, 5].map((star) => (
-              <Star key={star} className="w-3.5 h-3.5 fill-[#fbbf24] text-[#fbbf24]" />
-            ))}
-          </div>
-          <div className="flex items-center gap-1.5 truncate">
-            <span className="text-[#0f172a] font-bold text-sm">4.9</span>
-            <span className="text-gray-300 text-xs">|</span>
-            <span className="text-gray-500 text-xs font-medium truncate">Excelente</span>
-          </div>
-        </div>
-
-        {/* Sales Pill */}
-        <div className="flex-1 bg-white border border-gray-100 rounded-full py-2.5 px-2 flex items-center justify-center gap-2 shadow-sm min-w-0">
-           <TrendingUp className="w-4 h-4 text-[#10b981] shrink-0" strokeWidth={2.5} />
-           <span className="text-[#0f172a] text-sm font-bold truncate">+12.500 Vendidos</span>
-        </div>
-      </div>
-
-      {/* Title Below Stats */}
-      <h1 className="text-xl md:text-2xl font-bold text-[#0f172a] leading-tight text-center px-2 mt-1">
-        Hemocura® – Alívio Natural e Discreto em Gotas
-      </h1>
     </div>
   );
 };
