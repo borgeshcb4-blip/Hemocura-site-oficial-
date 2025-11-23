@@ -13,7 +13,7 @@ const App: React.FC = () => {
     <div className="min-h-screen bg-[#f3f4f6] font-sans selection:bg-emerald-100 selection:text-emerald-900">
       <Header />
       
-      <main className="max-w-md md:max-w-6xl mx-auto px-4 pt-6 pb-32 transition-all duration-300">
+      <main className="max-w-md md:max-w-6xl mx-auto px-4 pt-6 pb-24 transition-all duration-300">
         
         {/* Desktop Grid Layout */}
         <div className="flex flex-col md:grid md:grid-cols-12 md:gap-10 md:items-start">

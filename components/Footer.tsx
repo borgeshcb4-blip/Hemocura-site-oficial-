@@ -25,7 +25,7 @@ export const Footer: React.FC = () => {
   };
 
   return (
-    <footer role="contentinfo" className="w-full flex flex-col gap-6 pb-32 pt-8 border-t border-gray-200 mt-8 relative">
+    <footer role="contentinfo" className="w-full flex flex-col gap-6 pb-2 pt-8 border-t border-gray-200 mt-8 relative">
       
       {/* Navigation Links */}
       <div className="flex flex-col items-center gap-3">
@@ -76,7 +76,7 @@ export const Footer: React.FC = () => {
         </p>
       </section>
 
-      <div className="w-full text-center py-4">
+      <div className="w-full text-center pt-4 pb-1">
         <small className="text-[10px] text-gray-300 font-medium block">
           © 2025 Hemocura Oficial. Todos os direitos reservados.
         </small>
