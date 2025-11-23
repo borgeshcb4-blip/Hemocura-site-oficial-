@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hemocura.com.br/sitemap.xml
+Sitemap: https://hemocura-oficial.netlify.app/sitemap.xml
